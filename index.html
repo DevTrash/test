@@ -11,8 +11,13 @@
 <p id="demo">This is a demonstration.</p>
 
 <script>
+  
+  let cookies = 0;
+  
 function myFunction() { 
-  document.getElementById("demo").innerHTML = "Hello JavaScript!";
+  cookies = cookies + 1
+  
+  document.getElementById("demo").innerHTML = cookies;
 }
 </script>
 
